@@ -24,6 +24,11 @@ public class OcarinaTest {
     }
 
     @Test
+    public void hasBuyPrice(){
+        assertEquals(1000.00, ocarina.getBuyPrice(), 0.0);
+    }
+
+    @Test
     public void hasType(){
         assertEquals("Woodwind", ocarina.getType());
     }
