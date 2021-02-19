@@ -1,3 +1,4 @@
+import instruments.Ocarina;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -10,7 +11,7 @@ public class OcarinaTest {
     @Before
     public void before(){
         ocarina = new Ocarina("Magic metal", "Blue", "Woodwind", 1000.00,
-                1750.00, 5 );
+                1750.00, "Doo Dee Doo", 5);
     }
 
     @Test
@@ -43,6 +44,11 @@ public class OcarinaTest {
     @Test
     public void getNumberOfHoles(){
         assertEquals(5, ocarina.getNumberOfHoles());
+    }
+
+    @Test
+    public void canPlaySound(){
+        assertEquals("Doo Dee Doo", ocarina.play());
     }
 
 }
