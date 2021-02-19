@@ -18,4 +18,14 @@ public class OcarinaTest {
     assertEquals("Magic metal", ocarina.getMaterial());
     }
 
+    @Test
+    public void hasColour(){
+        assertEquals("Blue", ocarina.getColour());
+    }
+
+    @Test
+    public void hasType(){
+        assertEquals("Woodwind", ocarina.getType());
+    }
+
 }
