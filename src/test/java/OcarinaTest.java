@@ -23,14 +23,21 @@ public class OcarinaTest {
         assertEquals("Blue", ocarina.getColour());
     }
 
+
+
+    @Test
+    public void hasType(){
+        assertEquals("Woodwind", ocarina.getType());
+    }
+
     @Test
     public void hasBuyPrice(){
         assertEquals(1000.00, ocarina.getBuyPrice(), 0.0);
     }
 
     @Test
-    public void hasType(){
-        assertEquals("Woodwind", ocarina.getType());
+    public void hasSellPrice(){
+        assertEquals(1750.00, ocarina.getSellPrice(), 0.0);
     }
 
 }
