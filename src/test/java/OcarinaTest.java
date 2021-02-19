@@ -40,4 +40,9 @@ public class OcarinaTest {
         assertEquals(1750.00, ocarina.getSellPrice(), 0.0);
     }
 
+    @Test
+    public void getNumberOfHoles(){
+        assertEquals(5, ocarina.getNumberOfHoles());
+    }
+
 }

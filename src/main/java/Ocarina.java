@@ -9,4 +9,11 @@ public class Ocarina extends Instrument {
     }
 
 
+    public int getNumberOfHoles() {
+        return numberOfHoles;
+    }
+
+    public void setNumberOfHoles(int numberOfHoles) {
+        this.numberOfHoles = numberOfHoles;
+    }
 }
