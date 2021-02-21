@@ -27,4 +27,7 @@ public class Shop {
         this.stock.add(item);
     }
 
+    public int getNumberOfItemsInStock() {
+        return getStock().size();
+    }
 }
