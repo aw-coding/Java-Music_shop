@@ -1,8 +1,9 @@
 package instruments;
 
 import interfaces.IPlay;
+import interfaces.ISell;
 
-public abstract class Instrument implements IPlay {
+public abstract class Instrument implements IPlay, ISell {
 
     private String material;
     private String colour;
@@ -64,5 +65,9 @@ public abstract class Instrument implements IPlay {
 
     public String play(){
         return this.sound;
+    }
+
+    public double calculateMarkup(){
+        return this.sellPrice - this.buyPrice;
     }
 }

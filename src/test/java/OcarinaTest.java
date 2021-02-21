@@ -51,4 +51,9 @@ public class OcarinaTest {
         assertEquals("Doo Dee Doo", ocarina.play());
     }
 
+    @Test
+    public void canCalculateMarkup(){
+        assertEquals(750.00, ocarina.calculateMarkup(), 0.00);
+    }
+
 }
