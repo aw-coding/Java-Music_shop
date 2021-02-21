@@ -1,5 +1,6 @@
 package shop;
 
+import instruments.Piano;
 import interfaces.ISell;
 
 import java.util.ArrayList;
@@ -15,6 +16,7 @@ public class Shop {
         this.stock = new ArrayList<ISell>();
     }
 
+
     public String getName() {
         return name;
     }
@@ -29,5 +31,9 @@ public class Shop {
 
     public int getNumberOfItemsInStock() {
         return getStock().size();
+    }
+
+    public void removeItem(ISell item) {
+        this.stock.remove(item);
     }
 }

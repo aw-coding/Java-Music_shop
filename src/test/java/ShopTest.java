@@ -51,4 +51,10 @@ public class ShopTest {
     public void canGetStock(){
         assertEquals(5, shop.getNumberOfItemsInStock());
     }
+
+    @Test
+    public void canRemoveItemFromStock(){
+        shop.removeItem(grandPiano);
+        assertEquals(4, shop.getNumberOfItemsInStock());
+    }
 }
