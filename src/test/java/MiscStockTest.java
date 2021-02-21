@@ -23,4 +23,9 @@ public class MiscStockTest {
     public void cangetSellPrice(){
         assertEquals(50.00, sheetMusic.getSellPrice(), 0.0);
     }
+
+    @Test
+    public void cangetItemType(){
+        assertEquals(itemType.SHEETMUSIC, sheetMusic.getItemType());
+    }
 }
