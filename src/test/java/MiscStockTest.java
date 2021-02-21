@@ -28,4 +28,9 @@ public class MiscStockTest {
     public void cangetItemType(){
         assertEquals(itemType.SHEETMUSIC, sheetMusic.getItemType());
     }
+
+    @Test
+    public void canCalculateMarkup(){
+        assertEquals(20.00, sheetMusic.calculateMarkup(), 0.0);
+    }
 }
