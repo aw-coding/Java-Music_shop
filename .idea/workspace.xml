@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe855d8a-35e1-4d0d-b0b3-520b8c73a82a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/misc_items/MiscStock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/misc_items/itemType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/MiscStockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/shop/Shop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ShopTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +48,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="experimental" />
   </component>
-  <component name="RunManager" selected="JUnit.MiscStockTest">
+  <component name="RunManager" selected="JUnit.ShopTest">
     <configuration name="GuitarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RaysMusicExchange" />
       <option name="PACKAGE_NAME" value="" />
@@ -86,8 +85,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ShopTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RaysMusicExchange" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ShopTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ShopTest" />
         <item itemvalue="JUnit.MiscStockTest" />
         <item itemvalue="JUnit.OcarinaTest" />
         <item itemvalue="JUnit.PianoTest" />
