@@ -57,4 +57,9 @@ public class ShopTest {
         shop.removeItem(grandPiano);
         assertEquals(4, shop.getNumberOfItemsInStock());
     }
+
+    @Test
+    public void canCalculateTotalStockProfit(){
+        assertEquals(3280.00, shop.calculateTotalStockValue(), 0.0);
+    }
 }

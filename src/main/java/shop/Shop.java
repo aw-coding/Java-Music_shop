@@ -36,4 +36,12 @@ public class Shop {
     public void removeItem(ISell item) {
         this.stock.remove(item);
     }
+
+    public double calculateTotalStockValue() {
+        double total = 0;
+        for (ISell item: this.stock){
+            total += item.calculateMarkup();
+        }
+        return total;
+    }
 }
